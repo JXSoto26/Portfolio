@@ -1,0 +1,261 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333; /* Default text color */
+}
+
+/* Header Styles */
+header {
+  background-color: #0077b5; /* Professional blue */
+  color: #fff;
+  text-align: center;
+  padding: 80px 0; /* Increased padding for header */
+}
+
+/* Styling for the social icons */
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  font-size: 24px;
+  margin: 0 10px;
+  color: #fff; /* Color of the icons */
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #333; /* Hover color for the icons */
+}
+
+/* Navigation Bar Styles */
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #fff; /* White background */
+  padding: 20px 0; /* Increased padding for the navigation bar */
+  border-bottom: 1px solid #e5e5e5; /* Subtle separation line */
+}
+
+nav li {
+  margin: 0 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333; /* Dark text color for links */
+  font-size: 1.2rem;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #0077b5; /* Hover color matches the header background */
+}
+
+/* Section Styles */
+section {
+  height: auto;
+  background-color: #f9f9f9; /* Light gray background for sections */
+  padding: 30px;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  margin: 40px;
+}
+
+/* About Me Section */
+#about {
+  background-color: #f9f9f9;
+  padding: 30px;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  text-align: left;
+  font-size: 1.2rem;
+}
+
+/* Improved Project Styles */
+.project {
+  background-color: #f9f9f9;
+  padding: 30px;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  position: relative; /* To handle button positioning */
+}
+
+.project h3 {
+  font-size: 1.5rem;
+}
+
+.project-description {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+.project-button a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0077b5;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  transition: background-color 0.3s;
+}
+
+.project-button a:hover {
+  background-color: #005d8d;
+}
+
+/* Skills Section */
+#skills {
+  background-color: #f9f9f9;
+  padding: 30px;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skills-list li {
+  margin: 10px;
+  padding: 10px 20px;
+  border: 1px solid #0077b5;
+  border-radius: 4px;
+  background-color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+.skills-list li:hover {
+  background-color: #0077b5;
+  color: #fff;
+}
+
+/* LLanguages Section */
+#languages {
+  background-color: #f9f9f9;
+  padding: 30px;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  text-align: center;
+}
+
+#languages li {
+  list-style: none;
+}
+
+/* Link Styling */
+header a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #333;
+}
+
+/* Certifications Styles */
+.certifications-container {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(200px, 2fr)
+  ); /* Increase the minimum width for each item */
+  gap: 20px;
+  justify-items: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.certification {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.certification img {
+  max-width: 100%; /* Ensure images don't exceed their container width */
+  max-height: 200px;
+  border: 1px solid #ddd; /* Add a subtle border around each certification */
+  border-radius: 6px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+}
+
+.certification img:hover {
+  transform: scale(1.05); /* Enlarge image on hover for a subtle effect */
+  transition: transform 0.2s;
+}
+/*****Buttons*****/
+/* Styling for the Resume Button */
+.resume-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0077b5;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  transition: background-color 0.3s;
+  margin-top: 20px;
+}
+
+/* Style for the "Back to Top" button */
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #0077b5;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  display: none; /* Initially hidden */
+}
+
+.back-to-top:hover {
+  background-color: #005d8d;
+}
+
+@media screen and (max-width: 768px) {
+  * {
+    text-align: center;
+  }
+  nav ul {
+    display: block; /* Change the display to block for smaller screens */
+    margin-bottom: 10px; /* Add some margin to separate the items vertically */
+  }
+
+  nav li {
+    border: 1px solid #e5e5e5; /* Subtle separation line */
+  }
+
+  .project-button {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
